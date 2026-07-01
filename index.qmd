@@ -47,7 +47,7 @@ We document the effects of electronic invoicing (eInvoicing) on credit markets. 
 :::
 
 ::: {.paper-entry}
-### [Bank Specialization, Control Rights, and Real Effects](files/papers/GGP_BankSpec_oct25.pdf){.paper-title-link target="_blank" rel="noopener"} [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4873446){.paper-title-ssrn target="_blank" rel="noopener"}
+### [Bank Specialization, Control Rights, and Real Effects](files/papers/GGP_BankSpec_oct25.pdf){.paper-title-link target="_blank" rel="noopener"} [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4873446){.paper-title-ssrn target="_blank" rel="noopener"}
 
 <span class="coauthors">with [Ozan Guler](https://www.ozanguler.net/) and [Stefano Pietrosanti](https://sites.google.com/sas.upenn.edu/stefanopietrosanti).</span>
 
