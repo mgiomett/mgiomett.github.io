@@ -10,7 +10,7 @@ website:
   search: false
   site-url: "https://mgiomett.github.io"
   description: "Marco Giometti, Assistant Professor of Finance at Universidad Carlos III de Madrid."
-  favicon: images/site/favicon.svg
+  favicon: images/site/uc3m.png
   open-graph:
     title: "Marco Giometti"
     description: "Assistant Professor of Finance at Universidad Carlos III de Madrid."
