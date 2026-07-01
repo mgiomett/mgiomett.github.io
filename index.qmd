@@ -76,7 +76,7 @@ In this paper I investigate whether relationship lending helps borrowers experie
 <span class="coauthors">with [Jose Gutierrez](https://sites.google.com/view/joseegutierrez), [Enric Martorell](https://www.enric-martorell.com/), and [Andrea Sy](https://sites.google.com/view/andrea-sy/home).</span>
 
 ::: {.research-description}
-How do energy-price shocks affect credit markets? Using Spanish credit register and loan application data around the 2022 European energy crisis, we show that energy-intensive firms experience higher non-performing credit shares, higher loan-loss provisions, and higher bank-assigned probabilities of default. Banks more exposed to these borrowers reallocate credit across relationships. They preserve credit to incumbent borrowers in energy-intensive sectors while reducing approvals and loan amounts for new borrowers. Energy shocks propagate through the banking sector by changing who gets credit, not only how much credit is supplied.
+How do energy-price shocks affect credit markets? Using Spanish credit register and loan application data around the 2022 European energy crisis, we show that loans to energy-intensive firms become more likely to enter payment delay. Banks also classify a larger share of credit to these firms as non-performing, set aside higher loan-loss provisions, and assign them higher probabilities of default. Banks more exposed to these borrowers reallocate credit across relationships. They preserve credit to incumbent borrowers in energy-intensive sectors while reducing approvals and loan amounts for new borrowers. Energy shocks propagate through the banking sector by changing who gets credit, not only how much credit is supplied.
 :::
 :::
 
