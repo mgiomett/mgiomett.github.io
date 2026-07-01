@@ -1,0 +1,110 @@
+---
+title: "Marco Giometti"
+description: "Marco Giometti, Assistant Professor of Finance at Universidad Carlos III de Madrid."
+pagetitle: "Marco Giometti | Finance"
+---
+
+::: {#about .profile-section}
+::: {.profile-photo}
+<img src="images/profile/marco-giometti.jpg" class="profile-image" alt="Portrait of Marco Giometti">
+:::
+
+::: {.profile-copy}
+# Marco Giometti
+
+Ciao! Welcome to my website.
+
+I am an Assistant Professor of Finance in the Business Department at the Universidad Carlos III de Madrid.
+
+I received my PhD in Finance from the Wharton School of the University of Pennsylvania in May 2022.
+
+My research focuses on Banking, Empirical Corporate Finance, and Financial Contracting.
+
+You can download my CV [**here**](files/cv/CV_Giometti.pdf){target="_blank" rel="noopener"}.
+
+::: {.profile-contact}
+**Contact:** [marco.giometti@uc3m.es](mailto:marco.giometti@uc3m.es) | [margiometti@gmail.com](mailto:margiometti@gmail.com)
+
+**Links:** [Google Scholar](https://scholar.google.com/citations?user=-2noTu4AAAAJ) | [LinkedIn](https://www.linkedin.com/in/marcogiometti/) | [UC3M](https://business.uc3m.es/en/faculty/profesor/perfil/marco-giometti) | [ORCID](https://orcid.org/0000-0003-3889-5068) | [ResearchGate](https://www.researchgate.net/profile/Marco-Giometti)
+:::
+:::
+:::
+
+::: {#research .content-section}
+## Working Papers
+
+<!-- RESEARCH ENTRY: Copy this entire paper-entry block to add another paper. -->
+::: {.paper-entry}
+### Digitalization and Credit Markets: Evidence from eInvoicing
+
+<span class="coauthors">with [Alejandro Casado](https://alejandrocasado.com/), [Jose Gutierrez](https://sites.google.com/view/joseegutierrez), [David Martinez Miera](https://martinezmiera.com/), [Alexandra Matyunina](https://matyunina.com/), and [Tammaro Terracciano](https://sites.google.com/view/tammaroterracciano/).</span>
+
+*Revise & Resubmit*, **Review of Finance**.
+
+::: {.research-description}
+We document the effects of electronic invoicing (eInvoicing) on credit markets. By making invoices more standardized, verifiable, and harder to falsify, eInvoicing changes lenders’ information sets, facilitating invoice-based financing and credit risk assessment. We exploit a regional eInvoicing mandate and administrative credit data using a difference-in-differences design to provide three main insights. First, credit reallocates toward firms already relying on invoice-based credit (“invoice firms”) and away from non-invoice firms. Second, the cost of (non-)invoice credit falls (rises) for (non-)invoice firms, consistent with a supply-driven mechanism. Third, banks' information production changes: eInvoicing widens (reduces) the dispersion of rates and banks' risk assessments and improves (worsens) their predictive accuracy for (non-)invoice firms. Overall, eInvoicing reshapes credit market outcomes, with uneven effects across borrowers.
+:::
+:::
+
+::: {.paper-entry}
+### [Bank Specialization, Control Rights, and Real Effects](files/papers/GGP_BankSpec_oct25.pdf){.paper-title-link target="_blank" rel="noopener"} [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4873446){.paper-title-ssrn target="_blank" rel="noopener"}
+
+<span class="coauthors">with [Ozan Guler](https://www.ozanguler.net/) and [Stefano Pietrosanti](https://sites.google.com/sas.upenn.edu/stefanopietrosanti).</span>
+
+*Revise & Resubmit*, **Management Science**.
+
+<span class="former-title">[formerly circulated as *“Bank Specialization and the Design of Loan Contracts”*, [FDIC Center for Financial Research Working Paper No. 2022-14](https://www.fdic.gov/analysis/cfr/working-papers/2022/cfr-wp2022-14.pdf)]</span>
+
+::: {.research-description}
+We study how lenders' industry expertise affects loan covenant design and enforcement. Using a large sample of U.S. corporate loans, we find that industry-specialized lenders impose less restrictive financial covenants and exhibit greater dispersion in contract terms. Following a covenant violation, borrowers financed by specialized banks experience smaller drops in investment without a decline in performance. Our results suggest that lenders improve contracting efficiency by leveraging industry-level knowledge, which is transferable across borrowers.
+:::
+:::
+
+::: {.paper-entry}
+### [Relationship Lending when Borrowers Are in Distress](files/papers/G_RelLenFinDstr_aug2022.pdf){target="_blank" rel="noopener"}
+
+::: {.research-description}
+In this paper I investigate whether relationship lending helps borrowers experiencing idiosyncratic financial distress. By constructing a novel dataset on syndicated lending that tracks the availability and pricing of credit for US corporate borrowers over three decades, I conclude that relationship lending benefits borrowers in distress. In particular, I explicitly distinguish loan renegotiations from new originations, and account for the state-contingent provisions on loan pricing often present in credit agreements. I compare loan terms granted to borrowers in distress by relationship and non-relationship lenders. By employing a within-firm approach to alleviate possible selection issues, I find that relationship lenders provide a higher credit amount, charge lower interest rates, and require similar collateral and fees. I show that firms benefit from relationship lending irrespective of their access to outside financing options. Overall, I provide support to theories of implicit commitment and reputational capital in lending relationships.
+:::
+:::
+
+## Work in Progress
+
+::: {.paper-entry}
+### Energy Prices, Credit Risk, and Bank Lending Dynamics
+
+<span class="coauthors">with [Jose Gutierrez](https://sites.google.com/view/joseegutierrez), [Enric Martorell](https://www.enric-martorell.com/), and [Andrea Sy](https://sites.google.com/view/andrea-sy/home).</span>
+
+::: {.research-description}
+How do energy-price shocks affect credit markets? Using Spanish credit register and loan application data around the 2022 European energy crisis, we show that energy-intensive firms experience higher non-performing credit shares, higher loan-loss provisions, and higher bank-assigned probabilities of default. Banks more exposed to these borrowers reallocate credit across relationships. They preserve credit to incumbent borrowers in energy-intensive sectors while reducing approvals and loan amounts for new borrowers. Energy shocks propagate through the banking sector by changing who gets credit, not only how much credit is supplied.
+:::
+:::
+
+## Selected Invited Discussions
+
+::: {.discussion-list}
+**Platform Credit, Advertising, and Customer Capital** by Matthias Efing, Yi Huang, Ruobing Han, Qi Sun, Daniel Yi Xu, *EUROFIDAI-ESSEC Paris December 2025 Finance Meeting*
+
+**How Do Lenders Manage Collateral Illiquidity?** by Francisco Amaral and Gianmarco Ruzzier, *10th MadBar Workshop on Banking and Corporate Finance*
+
+**Poison Bonds** by Rex Wang Renjie and Shuo Xia, *Third Aarhus Workshop on Strategic Interaction in Corporate Finance*
+
+**Bank Specialization in Lending to New Firms** by Diana Bonfim, Ralph De Haas, Alexandra Matyunina, Steven Ongena, *32nd Finance Forum of the Spanish Finance Association*
+
+**The expert’s edge? Bank lending specialization and informational advantages for credit risk assessment** by Mathieu Simoens and Fabio Tamburrini, *9th EFiC Conference in Banking and Corporate Finance*
+
+**Court shopping, pro-debtor bias, and bankruptcy outcomes** by Kris Boudt, Florencio Lopez-de-Silanes, Rafael Matta, Shilin Zhang, *18th Belgian Financial Research Forum*
+
+**Concentrating on Bailouts: Government Guarantees and Bank Asset Composition** by Christian Eufinger, Juan Pablo Gorostiaga, and Björn Richter, *8th MadBar Workshop on Banking and Corporate Finance*
+
+**Bank Competition and Bargaining over Refinancing** by Marina Emiris, Francois Koulischer, and Christophe Spaenjers, *Finance and Accounting 2023 Annual Research Symposium*
+:::
+
+## Other Work
+
+::: {.paper-entry}
+### Persistence of Innovation and Knowledge Flows in Africa: An Empirical Investigation
+
+<span class="coauthors">with [Francesco Lamperti](http://www.francescolamperti.eu/) and [Roberto Mavilia](https://scholar.google.it/citations?user=pIqJ2wsAAAAJ&hl=en).</span> *Innovation and Development*. 2016. 6(2), 235-257. [[Link](https://doi.org/10.1080/2157930X.2016.1196547)]
+:::
+:::
