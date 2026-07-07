@@ -35,7 +35,7 @@ You can download my CV [**here**](files/cv/CV_Giometti.pdf){target="_blank" rel=
 
 <!-- RESEARCH ENTRY: Copy this entire paper-entry block to add another paper. -->
 ::: {.paper-entry}
-### Digitalization and Credit Markets: Evidence from eInvoicing
+### [Digitalization and Credit Markets: Evidence from eInvoicing](files/papers/CGGMMT_eInvoicing_BdE.pdf){target="_blank" rel="noopener"}
 
 <span class="coauthors">with [Alejandro Casado](https://alejandrocasado.com/), [Jose Gutierrez](https://sites.google.com/view/joseegutierrez), [David Martinez Miera](https://martinezmiera.com/), [Alexandra Matyunina](https://matyunina.com/), and [Tammaro Terracciano](https://sites.google.com/view/tammaroterracciano/).</span>
 
