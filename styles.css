@@ -136,6 +136,12 @@ a:hover, a:focus { color: #0f2f4a; }
   vertical-align: baseline;
 }
 
+.paper-entry p.working-paper-status {
+  margin-top: 0.08rem;
+  color: var(--academic-blue);
+  font-style: italic;
+}
+
 .paper-entry h3 a.paper-title-ssrn:hover,
 .paper-entry h3 a.paper-title-ssrn:focus {
   color: #5f142b;

@@ -39,6 +39,8 @@ You can download my CV [**here**](files/cv/CV_Giometti.pdf){target="_blank" rel=
 
 <span class="coauthors">with [Alejandro Casado](https://alejandrocasado.com/), [Jose Gutierrez](https://sites.google.com/view/joseegutierrez), [David Martinez Miera](https://martinezmiera.com/), [Alexandra Matyunina](https://matyunina.com/), and [Tammaro Terracciano](https://sites.google.com/view/tammaroterracciano/).</span>
 
+<p class="working-paper-status">Banco de España Working Paper No. 2619.</p>
+
 *Revise & Resubmit*, **Review of Finance**.
 
 ::: {.research-description}
