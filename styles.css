@@ -26,7 +26,7 @@
   --space-coauthors-metadata: 0.3rem;
 
   /* Working-paper/former-title line → R&R line */
-  --space-metadata-status: 0.225rem;
+  --space-metadata-status: 0.2rem;
 
   /* R&R line → abstract */
   --space-status-abstract: 0.075rem;
@@ -39,6 +39,9 @@
   
   /* Plain title → abstract, for papers with no coauthors/status line */
   --space-title-abstract: -0.65rem;
+
+  /* Coauthors → abstract, for papers with no status line */
+  --space-coauthors-abstract: 0.35rem;
 }
 
 html {
@@ -423,7 +426,7 @@ a:focus {
 */
 .paper-entry > p:has(.coauthors) + .research-description,
 .paper-entry > .coauthors + .research-description {
-  margin-top: var(--space-status-abstract);
+  margin-top: var(--space-coauthors-abstract);
 }
 
 /* Abstract text */
