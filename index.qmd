@@ -35,11 +35,42 @@ You can download my CV [**here**](files/cv/CV_Giometti.pdf){target="_blank" rel=
 
 <!-- RESEARCH ENTRY: Copy this entire paper-entry block to add another paper. -->
 ::: {.paper-entry}
-### [Digitalization and Credit Markets: Evidence from eInvoicing](files/papers/CGGMMT_eInvoicing_BdE.pdf){target="_blank" rel="noopener"}
+<h3 class="paper-title-row">
+  <span class="paper-title-text">
+    Digitalization and Credit Markets: Evidence from eInvoicing
+  </span>
 
+  <span class="paper-resources">
+    <span class="paper-resource">
+      <a href="files/papers/CGGMMT_eInvoicing.pdf"
+         target="_blank"
+         rel="noopener">
+        Draft
+      </a>
+    </span>
+
+    <span class="paper-resource">
+      <a href="https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosTrabajo/26/Files/dt2619e.pdf"
+         target="_blank"
+         rel="noopener">
+        BdE WP
+      </a>
+    </span>
+
+    <span class="paper-resource">
+      <a href="https://cepr.org/publications/dp21728"
+         target="_blank"
+         rel="noopener">
+        CEPR DP
+      </a>
+    </span>
+  </span>
+</h3>
 <span class="coauthors">with [Alejandro Casado](https://alejandrocasado.com/), [Jose Gutierrez](https://sites.google.com/view/joseegutierrez), [David Martinez Miera](https://martinezmiera.com/), [Alexandra Matyunina](https://matyunina.com/), and [Tammaro Terracciano](https://sites.google.com/view/tammaroterracciano/).</span>
 
-<p class="working-paper-status">Banco de España Working Paper No. 2619.</p>
+<span class="paper-series">
+  Banco de España Working Paper No. 2619; CEPR Discussion Paper No. 21728
+</span>
 
 *Revise & Resubmit*, **Review of Finance**.
 
@@ -49,13 +80,45 @@ We document the effects of electronic invoicing (eInvoicing) on credit markets. 
 :::
 
 ::: {.paper-entry}
-### [Bank Specialization, Control Rights, and Real Effects](files/papers/GGP_BankSpec_oct25.pdf){.paper-title-link target="_blank" rel="noopener"} [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4873446){.paper-title-ssrn target="_blank" rel="noopener"}
+<h3 class="paper-title-row">
+  <span class="paper-title-text">
+    Bank Specialization, Control Rights, and Real Effects
+  </span>
 
+  <span class="paper-resources">
+    <span class="paper-resource">
+      <a href="files/papers/GGP_BankSpec_oct25.pdf"
+         target="_blank"
+         rel="noopener">
+        Draft
+      </a>
+    </span>
+
+    <span class="paper-resource">
+      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4873446"
+         target="_blank"
+         rel="noopener">
+        SSRN
+      </a>
+    </span>
+
+    <span class="paper-resource">
+  <a href="https://www.fdic.gov/analysis/cfr/working-papers/2022/cfr-wp2022-14.pdf"
+     target="_blank"
+     rel="noopener">
+    Older FDIC CFR WP
+  </a>
+</span>
+
+  </span>
+</h3>
 <span class="coauthors">with [Ozan Guler](https://www.ozanguler.net/) and [Stefano Pietrosanti](https://sites.google.com/sas.upenn.edu/stefanopietrosanti).</span>
 
-*Revise & Resubmit*, **Management Science**.
+<span class="former-title">
+  Previously circulated as <em>“Bank Specialization and the Design of Loan Contracts.”</em>
+</span>
 
-<span class="former-title">[formerly circulated as *“Bank Specialization and the Design of Loan Contracts”*, [FDIC Center for Financial Research Working Paper No. 2022-14](https://www.fdic.gov/analysis/cfr/working-papers/2022/cfr-wp2022-14.pdf)]</span>
+*Revise & Resubmit*, **Management Science**.
 
 ::: {.research-description}
 We study how lenders' industry expertise affects loan covenant design and enforcement. Using a large sample of U.S. corporate loans, we find that industry-specialized lenders impose less restrictive financial covenants and exhibit greater dispersion in contract terms. Following a covenant violation, borrowers financed by specialized banks experience smaller drops in investment without a decline in performance. Our results suggest that lenders improve contracting efficiency by leveraging industry-level knowledge, which is transferable across borrowers.
@@ -63,7 +126,22 @@ We study how lenders' industry expertise affects loan covenant design and enforc
 :::
 
 ::: {.paper-entry}
-### [Relationship Lending when Borrowers Are in Distress](files/papers/G_RelLenFinDstr_aug2022.pdf){target="_blank" rel="noopener"}
+<h3 class="paper-title-row">
+  <span class="paper-title-text">
+    Relationship Lending when Borrowers Are in Distress
+  </span>
+
+  <span class="paper-resources">
+    <span class="paper-resource">
+      <a href="files/papers/G_RelLenFinDstr_aug2022.pdf.pdf"
+         target="_blank"
+         rel="noopener">
+        Draft
+      </a>
+    </span>
+
+  </span>
+</h3>
 
 ::: {.research-description}
 In this paper I investigate whether relationship lending helps borrowers experiencing idiosyncratic financial distress. By constructing a novel dataset on syndicated lending that tracks the availability and pricing of credit for US corporate borrowers over three decades, I conclude that relationship lending benefits borrowers in distress. In particular, I explicitly distinguish loan renegotiations from new originations, and account for the state-contingent provisions on loan pricing often present in credit agreements. I compare loan terms granted to borrowers in distress by relationship and non-relationship lenders. By employing a within-firm approach to alleviate possible selection issues, I find that relationship lenders provide a higher credit amount, charge lower interest rates, and require similar collateral and fees. I show that firms benefit from relationship lending irrespective of their access to outside financing options. Overall, I provide support to theories of implicit commitment and reputational capital in lending relationships.
