@@ -133,7 +133,7 @@ We study how lenders' industry expertise affects loan covenant design and enforc
 
   <span class="paper-resources">
     <span class="paper-resource">
-      <a href="files/papers/G_RelLenFinDstr_aug2022.pdf.pdf"
+      <a href="files/papers/G_RelLenFinDstr_aug2022.pdf"
          target="_blank"
          rel="noopener">
         Draft
