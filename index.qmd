@@ -64,6 +64,14 @@ You can download my CV [**here**](files/cv/CV_Giometti.pdf){target="_blank" rel=
         CEPR DP
       </a>
     </span>
+
+    <span class="paper-resource">
+      <a href="https://ssrn.com/abstract=7072239"
+         target="_blank"
+         rel="noopener">
+        SSRN
+      </a>
+    </span>
   </span>
 </h3>
 <span class="coauthors">with [Alejandro Casado](https://alejandrocasado.com/), [Jose Gutierrez](https://sites.google.com/view/joseegutierrez), [David Martinez Miera](https://martinezmiera.com/), [Alexandra Matyunina](https://matyunina.com/), and [Tammaro Terracciano](https://sites.google.com/view/tammaroterracciano/).</span>
@@ -95,7 +103,7 @@ We document the effects of electronic invoicing (eInvoicing) on credit markets. 
     </span>
 
     <span class="paper-resource">
-      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4873446"
+      <a href="https://ssrn.com/abstract=4873446"
          target="_blank"
          rel="noopener">
         SSRN
