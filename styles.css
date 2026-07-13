@@ -16,7 +16,7 @@
 
   /* Custom HTML title row → coauthors
      Applies to papers with bracket links beside the title */
-  --space-title-coauthors: -0.875rem;
+  --space-title-coauthors: 0.25rem;
 
   /* Plain Markdown title → coauthors
      Applies to Work in Progress and other normal ### titles */
@@ -36,9 +36,9 @@
 
   /* One invited discussion → next invited discussion */
   --space-between-discussions: 0.4rem;
-  
+
   /* Plain title → abstract, for papers with no coauthors/status line */
-  --space-title-abstract: -0.65rem;
+  --space-title-abstract: 0.275rem;
 
   /* Coauthors → abstract, for papers with no status line */
   --space-coauthors-abstract: 0.35rem;
@@ -225,7 +225,7 @@ a:focus {
 }
 
 /* =========================================================
-   Paper title and resource links
+   Paper title and resource links — desktop
    ========================================================= */
 
 .paper-title-row {
@@ -475,7 +475,15 @@ a:focus {
 @media (max-width: 767px) {
   :root {
     --page-gutter: 1.25rem;
+
+    /* One paper block → next paper block */
     --space-between-papers: 1.3rem;
+
+    /*
+       Mobile only: title/link block → coauthors.
+       This prevents overlap when title links wrap.
+    */
+    --space-title-coauthors: 0.10rem;
   }
 
   body {
@@ -505,6 +513,63 @@ a:focus {
 
   h2 {
     margin-top: 2.25rem;
+  }
+
+  /* =======================================================
+     Mobile title/resource layout
+     ======================================================= */
+
+  /*
+     Mobile uses inline flow, not nested flex.
+     This keeps links on the same row whenever there is room,
+     and makes wrapped link rows compact.
+  */
+  .paper-title-row {
+    display: block;
+    margin: 0;
+    padding: 0;
+    line-height: 1.16;
+  }
+
+  .paper-title-text {
+    display: inline;
+    line-height: 1.16;
+  }
+
+  .paper-resources {
+    display: inline;
+    margin-left: 0.22rem;
+    line-height: 1.16;
+    vertical-align: baseline;
+  }
+
+  .paper-entry h3 .paper-resource {
+    display: inline-flex;
+    align-items: center;
+    margin: 0 0.12rem 0 0;
+    color: #2f6f73;
+    font-size: inherit;
+    font-weight: 600;
+    line-height: 1;
+    vertical-align: baseline;
+    white-space: nowrap;
+  }
+
+  .paper-entry h3 .paper-resource:last-child {
+    margin-right: 0;
+  }
+
+  .paper-entry h3 .paper-resource a {
+    display: inline-block;
+    margin: 0 0.035em;
+    color: inherit;
+    font-size: 0.84em;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.06em;
+    text-underline-offset: 0.15em;
   }
 
   .research-description p {

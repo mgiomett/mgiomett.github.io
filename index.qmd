@@ -39,7 +39,6 @@ You can download my CV [**here**](files/cv/CV_Giometti.pdf){target="_blank" rel=
   <span class="paper-title-text">
     Digitalization and Credit Markets: Evidence from eInvoicing
   </span>
-
   <span class="paper-resources">
     <span class="paper-resource">
       <a href="files/papers/CGGMMT_eInvoicing.pdf"
@@ -48,7 +47,6 @@ You can download my CV [**here**](files/cv/CV_Giometti.pdf){target="_blank" rel=
         Draft
       </a>
     </span>
-
     <span class="paper-resource">
       <a href="https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosTrabajo/26/Files/dt2619e.pdf"
          target="_blank"
@@ -56,7 +54,6 @@ You can download my CV [**here**](files/cv/CV_Giometti.pdf){target="_blank" rel=
         BdE WP
       </a>
     </span>
-
     <span class="paper-resource">
       <a href="https://cepr.org/publications/dp21728"
          target="_blank"
@@ -64,7 +61,6 @@ You can download my CV [**here**](files/cv/CV_Giometti.pdf){target="_blank" rel=
         CEPR DP
       </a>
     </span>
-
     <span class="paper-resource">
       <a href="https://ssrn.com/abstract=7072239"
          target="_blank"
@@ -92,7 +88,6 @@ We document the effects of electronic invoicing (eInvoicing) on credit markets. 
   <span class="paper-title-text">
     Bank Specialization, Control Rights, and Real Effects
   </span>
-
   <span class="paper-resources">
     <span class="paper-resource">
       <a href="files/papers/GGP_BankSpec_oct25.pdf"
@@ -101,7 +96,6 @@ We document the effects of electronic invoicing (eInvoicing) on credit markets. 
         Draft
       </a>
     </span>
-
     <span class="paper-resource">
       <a href="https://ssrn.com/abstract=4873446"
          target="_blank"
@@ -109,7 +103,6 @@ We document the effects of electronic invoicing (eInvoicing) on credit markets. 
         SSRN
       </a>
     </span>
-
     <span class="paper-resource">
   <a href="https://www.fdic.gov/analysis/cfr/working-papers/2022/cfr-wp2022-14.pdf"
      target="_blank"
@@ -117,7 +110,6 @@ We document the effects of electronic invoicing (eInvoicing) on credit markets. 
     Older FDIC CFR WP
   </a>
 </span>
-
   </span>
 </h3>
 <span class="coauthors">with [Ozan Guler](https://www.ozanguler.net/) and [Stefano Pietrosanti](https://sites.google.com/sas.upenn.edu/stefanopietrosanti).</span>
@@ -138,7 +130,6 @@ We study how lenders' industry expertise affects loan covenant design and enforc
   <span class="paper-title-text">
     Relationship Lending when Borrowers Are in Distress
   </span>
-
   <span class="paper-resources">
     <span class="paper-resource">
       <a href="files/papers/G_RelLenFinDstr_aug2022.pdf"
@@ -147,7 +138,6 @@ We study how lenders' industry expertise affects loan covenant design and enforc
         Draft
       </a>
     </span>
-
   </span>
 </h3>
 
