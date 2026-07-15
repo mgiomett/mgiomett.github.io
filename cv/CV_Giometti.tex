@@ -1,0 +1,199 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{libertinus}
+\usepackage[scale=0.95]{plex-sans}
+\usepackage[a4paper,top=18mm,bottom=19mm,left=20mm,right=20mm,footskip=8mm]{geometry}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{microtype}
+\usepackage{etoolbox}
+\usepackage{needspace}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{fontawesome5}
+
+\definecolor{AcademicBlue}{HTML}{183B68}
+\definecolor{Ink}{HTML}{171717}
+\definecolor{MutedText}{HTML}{5B6270}
+\definecolor{RuleColor}{HTML}{D9DEE7}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=AcademicBlue,
+  linkcolor=AcademicBlue,
+  pdfauthor={Marco Giometti},
+  pdftitle={Marco Giometti - Curriculum Vitae},
+  pdfsubject={Academic curriculum vitae - mixed-font uppercase section version},
+  pdfkeywords={Marco Giometti, finance, banking, credit markets}
+}
+\urlstyle{same}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{2em}
+\color{black}
+\AtBeginDocument{\fontsize{11pt}{13.3pt}\selectfont}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{\sffamily\fontsize{8.3pt}{9.5pt}\selectfont\color{MutedText}Marco Giometti \enspace\textbar\enspace Curriculum Vitae \enspace\textbar\enspace July 2026 \enspace\textbar\enspace \thepage\ of \pageref*{LastPage}}
+
+% ---------- Controlled layout primitives ----------
+\newcommand{\cvsection}[1]{%
+  \Needspace{4.2\baselineskip}%
+  \par\vspace{1.00em}%
+  {\sffamily\mdseries\fontsize{10.9pt}{12.4pt}\selectfont\color{Ink}\textls[65]{\MakeUppercase{#1}}\par}%
+  \vspace{0.18em}%
+  {\color{RuleColor}\hrule height 0.45pt}%
+  \vspace{0.43em}%
+}
+
+\newcommand{\datedentry}[3]{%
+  \noindent
+  \begin{minipage}[t]{0.82\linewidth}
+    #1%
+    \ifstrempty{#2}{}{\par\vspace{0.06em}{\small\color{MutedText}#2}}%
+  \end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.15\linewidth}
+    \raggedleft\sffamily\small\color{MutedText}#3
+  \end{minipage}%
+  \par\vspace{0.57em}%
+}
+
+\newcommand{\paperentry}[3]{%
+  \Needspace{3.2\baselineskip}%
+  {\bfseries\color{AcademicBlue}#1\par}%
+  \ifstrempty{#2}{}{\vspace{0.04em}{\fontsize{10.4pt}{12.4pt}\selectfont #2\par}}%
+  \ifstrempty{#3}{}{\vspace{0.06em}{\fontsize{10.4pt}{12.4pt}\selectfont #3\par}}%
+  \vspace{0.57em}%
+}
+
+\newcommand{\yearentry}[2]{%
+  \par\noindent
+  \hangindent=3.7em\hangafter=1%
+  \makebox[3.7em][l]{\sffamily\mdseries\color{AcademicBlue}#1:}#2\par
+  \vspace{0.30em}%
+}
+
+\newcommand{\roleblock}[2]{%
+  \Needspace{2.5\baselineskip}%
+  {\bfseries\color{AcademicBlue}#1\par}%
+  \vspace{0.10em}%
+  #2\par
+  \vspace{0.47em}%
+}
+
+\newcommand{\serviceentry}[2]{%
+  \Needspace{2.5\baselineskip}%
+  {\bfseries\color{AcademicBlue}#1:} #2\par
+  \vspace{0.44em}%
+}
+
+\newcommand{\contactlabel}[1]{{\sffamily\bfseries\color{Ink}#1}}
+\newcommand{\cvstrong}[1]{{\bfseries\color{AcademicBlue}#1}}
+\newcommand{\papermetadata}[1]{{\sffamily\fontsize{10.1pt}{12.0pt}\selectfont\color{MutedText}#1}}
+\newcommand{\paperstatus}[1]{{\fontsize{11pt}{13.3pt}\selectfont #1}}
+\newcommand{\journalname}[1]{{\bfseries\color{black}#1}}
+
+\begin{document}
+
+% ---------- Header ----------
+{\hspace*{-0.1em}\sffamily\bfseries\fontsize{22pt}{24pt}\selectfont\color{AcademicBlue}Marco Giometti\par}
+\vspace{0.10em}
+{\sffamily\bfseries Assistant Professor of Finance\par}
+\vspace{0.34em}
+{\sffamily\fontsize{8.8pt}{10.4pt}\selectfont
+  \textcolor{MutedText}{\makebox[1.15em][c]{\faMapMarker}}\hspace{0.18em}%
+  Universidad Carlos III de Madrid, C/ Madrid 126, 28903 Getafe, Spain\par
+  \vspace{0.1em}
+  \textcolor{MutedText}{\makebox[1.15em][c]{\faEnvelope}}\hspace{0.18em}%
+  \href{mailto:marco.giometti@uc3m.es}{marco.giometti@uc3m.es}%
+  \hspace{1.35em}%
+  \textcolor{MutedText}{\makebox[1.15em][c]{\faGlobe}}\hspace{0.18em}%
+  \href{https://mgiomett.github.io/}{mgiomett.github.io}\par
+}
+\vspace{-0.16em}
+
+\cvsection{Appointment}
+\datedentry{\cvstrong{Assistant Professor of Finance}, Universidad Carlos III de Madrid}{}{2022--Present}
+
+\cvsection{Education}
+\datedentry{\cvstrong{Ph.D. in Finance}, The Wharton School, University of Pennsylvania}{Committee: Richard Herring, Lorena Keller, David Musto (Chair)}{2016--2022}
+\datedentry{\cvstrong{M.Sc. in Economic and Social Sciences}, Bocconi University}{110/110 cum laude; Advisor: Elena Carletti}{2012--2015}
+\datedentry{\cvstrong{B.A. in Economics and Business}, University of Pisa}{110/110 cum laude}{2010--2012}
+
+\cvsection{Research Interests}
+Banking, Credit Markets, Financial Contracting
+
+\cvsection{Working Papers}
+\paperentry{\href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7072239}{Digitalization and Credit Markets: Evidence from eInvoicing}}{with A. Casado, J. Gutierrez, D. Martinez-Miera, A. Matyunina, and T. Terracciano}{\papermetadata{Banco de Espa\~na Working Paper No. 2619; CEPR Discussion Paper No. 21728.}\par\vspace{0.06em}\paperstatus{\textit{Revise \& Resubmit}, \journalname{Review of Finance}.}}
+
+\paperentry{\href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4873446}{Bank Specialization, Control Rights, and Real Effects}}{with O. G\"uler and S. Pietrosanti}{\paperstatus{\textit{Revise \& Resubmit}, \journalname{Management Science}.}\par\vspace{0.06em}\papermetadata{Previously circulated as ``Bank Specialization and the Design of Loan Contracts,'' \href{https://www.fdic.gov/analysis/cfr/working-papers/2022/cfr-wp2022-14.pdf}{FDIC CFR Working Paper 2022-14}.}}
+
+\paperentry{Energy Prices, Credit Risk, and Bank Lending Dynamics}{with J. Gutierrez, E. Martorell, and A. Sy}{}
+
+\paperentry{\href{https://faculty.wharton.upenn.edu/wp-content/uploads/2016/11/Giometti_JMP_Jan27.pdf}{Relationship Lending when Borrowers Are in Distress}}{}{}
+
+\cvsection{Other Work}
+\paperentry{\href{https://doi.org/10.1080/2157930X.2016.1196547}{Persistence of Innovation and Knowledge Flows in Africa: An Empirical Investigation}}{with F. Lamperti and R. Mavilia}{\textit{Innovation and Development}, 2016, 6(2), 235--257.}
+
+\cvsection{Grants, Honors \& Awards}
+\datedentry{Young Researcher Grant, ``Information Asymmetries in Credit Markets'' (EUR 8,500), \href{https://www.uc3m.es/investigacion-apoyopdi/financiacion/programa-propio}{\textit{Programa Propio}, Universidad Carlos III de Madrid}}{}{2025}
+\datedentry{Juan de la Cierva Fellowship (EUR 66,000, declined), \href{https://www.aei.gob.es/convocatorias/buscador-convocatorias/ayudas-contratos-juan-cierva-2023}{Spanish State Research Agency}}{}{2024}
+\datedentry{SANFI Doctoral Dissertation Award (EUR 4,000), \href{https://sanfi.es/tesis-doctorales/}{Santander Financial Institute}}{}{2024}
+\datedentry{Research Grant, ``Real effects of financial frictions across agents'' (EUR 36,000, with E. Acabbi and D. Martinez-Miera), \href{https://www.fundacionareces.es/fundacionareces/es/ciencias-sociales/proyectos-de-investigacion-ccss/}{Fundaci\'on Ram\'on Areces}}{}{2023}
+\datedentry{Research Grant (\$5,000), \href{https://rodneywhitecenter.wharton.upenn.edu/}{Rodney L. White Center for Financial Research}}{}{2020}
+\datedentry{Research Fellowship (\$7,500), \href{https://mackinstitute.wharton.upenn.edu/}{Mack Institute for Innovation Management}}{}{2020}
+\datedentry{Research Grant (\$2,500), \href{https://riskcenter.wharton.upenn.edu/political-risk-lab/}{Wharton Political Risk Lab}}{}{2019}
+\datedentry{PhD Fellowship, \href{http://wharton.upenn.edu/}{The Wharton School, University of Pennsylvania}}{}{2016--2021}
+\datedentry{Bonaldo Stringher Fellowship, nominated ``Particularly Deserving,'' \href{http://www.bancaditalia.it/chi-siamo/lavorare-bi/borse-di-studio/index.html?com.dotmarketing.htmlpage.language=1}{Bank of Italy}}{}{2015}
+\datedentry{Unicredit Master Scholarship for graduate studies at \href{http://www.barcelonagse.eu/}{Barcelona GSE} (declined)}{}{2015}
+\datedentry{Bocconi Graduate Merit Award, \href{http://www.unibocconi.eu}{Bocconi University}}{}{2012--2014}
+\datedentry{Member of the Official Delegation for Italy, \href{http://en.g20russia.ru/events_summit/20130618/780961446.html}{Youth 20 Summit 2013}}{}{2013}
+
+\cvsection{Presentations}
+{\bfseries\color{AcademicBlue} Seminars and Conferences} \textit{(including scheduled; * denotes presentations by coauthor)}
+\par\vspace{0.28em}
+\yearentry{2026}{6th Benelux Banking Research Day* (Erasmus University, Rotterdam); 2026 Climate \& Energy Finance Conference (Universidad Pontificia de Comillas, Madrid); FINEST 2026 Spring Workshop (Universit\'e de Limoges); CEMA 2026 Annual Meeting (ESSEC Business School, Paris); 2026 International Conference in Financial Science (University of Campania ``Luigi Vanvitelli'', Naples); Third Annual Czech National Bank Conference (Czech National Bank, Prague); SED 2026 Annual Meeting* (Athens University of Economics and Business, Athens); 33rd Finance Forum (University of Alicante); 7th Vaasa Banking Research Workshop (University of Vaasa); 10th NBU-NBP Annual Research Conference (National Bank of Ukraine).}
+\yearentry{2025}{9th EFiC Conference in Banking and Corporate Finance (University of Bologna, Rimini Campus); The Future of Payments: CBDC, Digital Assets, and Digital Capital Markets (Bocconi University, Milan).}
+\yearentry{2024}{18th Belgian Financial Research Forum (National Bank of Belgium, Brussels); 31st Finance Forum (Universidad de la Laguna, Tenerife); European Summer Symposium in Financial Markets (Gerzensee); CEMFI.}
+\yearentry{2023}{12th International Conference of the Financial Engineering and Banking Society x 2 (Chania, Greece); FINEST 2023 Spring Workshop* (Rome, Italy); FMA European Conference (Aalborg University); Finance and Accounting 2023 Annual Research Symposium (Westminster Business School); 30th Finance Forum (University of Malaga); European Summer Symposium in Financial Markets (Gerzensee); HEC Lieges; CUNEF; Workshop on Financial Markets, Shocks and Macroeconomic Policy* (Central Bank of Chile, Santiago).}
+\yearentry{2022}{MadBar Workshop on Banking and Corporate Finance (Universitat Pompeu Fabra); 8th Annual Banking Research Network Workshop* (Bank of Italy); Summer Workshop on Money, Banking, Payments, and Finance -- Poster Session (Federal Reserve Board); FMA European Conference* (Emlyon Business School); 12th Financial Markets and Corporate Governance Conference x 2 (online); Annual Meeting of the Swiss Society for Financial Market Research (online); Wharton--INSEAD 10th Doctoral Consortium (INSEAD); Bank of Italy; Federal Reserve Board; Universidad Carlos III de Madrid; ESCP Business School; University of Bonn.}
+\yearentry{2021}{FDIC 20th Annual Bank Research Conference -- Poster Session (online); VPDE 14th PhD Workshop in Economics (Collegio Carlo Alberto).}
+\yearentry{2019}{Federal Reserve Bank of Philadelphia*.}
+
+\vspace{0.34em}
+{\bfseries\color{AcademicBlue} Invited Discussions} \textit{(including scheduled)}
+\par\vspace{0.28em}
+\yearentry{2026}{CEMA 2026 Annual Meeting (ESSEC Business School, Paris);  33rd Finance Forum (University of Alicante).}
+\yearentry{2025}{9th EFiC Conference in Banking and Corporate Finance (University of Bologna, Rimini Campus); 32nd Finance Forum (University of Navarra, Pamplona); Third Aarhus Workshop on Strategic Interaction in Corporate Finance (Aarhus University); 10th MadBar Workshop (UC3M, Madrid); EUROFIDAI--ESSEC Paris December 2025 Finance Meeting (ESSEC, Paris).}
+\yearentry{2024}{18th Belgian Financial Research Forum (National Bank of Belgium, Brussels); 31st Finance Forum (Universidad de La Laguna, Tenerife).}
+\yearentry{2023}{FMA European Conference (Aalborg University); Finance and Accounting 2023 Annual Research Symposium (Westminster Business School); 30th Finance Forum (University of Malaga); 8th MadBar Workshop (CEMFI, Madrid).}
+\yearentry{2022}{12th Financial Markets and Corporate Governance Conference (online).}
+
+\Needspace{15\baselineskip}
+\cvsection{Teaching Experience}
+\roleblock{Instructor, Universidad Carlos III de Madrid}{13193 - Bank Management (UG)\\17174 - Corporate Finance II (MRes)}
+\roleblock{Instructor, The Wharton School}{FNCE 101/613 - Monetary Economics \& Global Economy (UG/MBA)}
+\roleblock{Teaching Assistant, The Wharton School}{FNCE 220/732 - International Banking (UG/MBA), Prof. Richard Herring\\FNCE 101/613 - Monetary Economics \& Global Economy (UG/MBA), Dr. T. Shabbir\\FNCE 615 - Introduction to Macroeconomics (MBA), Prof. Jo\~ao Gomes\\FNCE 726 - Advanced Corporate Finance (MBA), Prof. B\"ulent G\"ultekin\\WH 299/399 - Wharton Honors Thesis (UG), Prof. Utsav Schurmans}
+
+\cvsection{Professional Service}
+\serviceentry{Journal Referee}{\textit{Review of Financial Studies}; \textit{Journal of the European Economic Association}; \textit{Journal of Corporate Finance}; \textit{European Economic Review}; \textit{Journal of Banking and Finance}; \textit{Journal of International Financial Markets, Institutions \& Money}; \textit{Economics Letters}; \textit{Financial Markets, Institutions \& Instruments}; \textit{International Review of Finance}}
+\serviceentry{Conference Reviewer}{33rd Finance Forum (University of Alicante); 32nd Finance Forum (University of Navarra, Pamplona); 2nd Annual Conference of the Accounting and Economics Society (Columbia University, New York City); 31st Finance Forum (Universidad de la Laguna, Tenerife)}
+\serviceentry{Conference Organizer}{10th MadBar Workshop in Banking and Corporate Finance}
+
+\cvsection{Industry \& Policy Experience}
+\datedentry{\cvstrong{Summer Associate}, Cornerstone Research}{}{2021}
+\datedentry{\cvstrong{Ph.D. Research Intern}, Bank of Italy}{}{2017 \& 2018}
+\datedentry{\cvstrong{Banking Supervision Trainee}, European Central Bank}{}{2015--2016}
+
+\cvsection{Other Information}
+\cvstrong{Programming Skills:} Stata, Python, R (basic), Java (basic), SQL (basic), Matlab (basic)\\
+\cvstrong{Languages:} Italian, English, French (conversational), Spanish (conversational)\\
+\cvstrong{Citizenship:} Italian
+
+\end{document}
