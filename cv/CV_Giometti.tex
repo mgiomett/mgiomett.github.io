@@ -52,16 +52,22 @@
 }
 
 \newcommand{\datedentry}[3]{%
-  \noindent
-  \begin{minipage}[t]{0.82\linewidth}
-    #1%
-    \ifstrempty{#2}{}{\par\vspace{0.06em}{\small\color{MutedText}#2}}%
-  \end{minipage}%
-  \hfill
-  \begin{minipage}[t]{0.15\linewidth}
-    \raggedleft\sffamily\small\color{MutedText}#3
-  \end{minipage}%
-  \par\vspace{0.57em}%
+	\par\noindent
+	\begin{minipage}[t]{0.82\linewidth}
+		\vspace{0pt}%
+		\strut #1%
+		\ifstrempty{#2}{}{%
+			\par\vspace{0.06em}%
+			{\small\color{MutedText}#2}%
+		}%
+	\end{minipage}%
+	\hfill
+	\begin{minipage}[t]{0.15\linewidth}
+		\vspace{0pt}%
+		\raggedleft
+		\strut{\sffamily\small\color{MutedText}#3}%
+	\end{minipage}%
+	\par\vspace{0.57em}%
 }
 
 \newcommand{\paperentry}[3]{%
