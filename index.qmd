@@ -1,7 +1,8 @@
 ---
 title: "Marco Giometti"
+pagetitle: "Marco Giometti — Financial Economist"
+title-prefix: ""
 description: "Marco Giometti, Assistant Professor of Finance at Universidad Carlos III de Madrid."
-pagetitle: "Marco Giometti | Finance"
 ---
 
 ::: {#about .profile-section}
