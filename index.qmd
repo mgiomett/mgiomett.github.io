@@ -77,7 +77,7 @@ You can download my CV [**here**](files/cv/CV_Giometti.pdf){target="_blank" rel=
   Banco de España Working Paper No. 2619; CEPR Discussion Paper No. 21728
 </span>
 
-*Revise & Resubmit*, **Review of Finance**.
+*Conditionally Accepted*, **Review of Finance**.
 
 ::: {.research-description}
 We document the effects of electronic invoicing (eInvoicing) on credit markets. By making invoices more standardized, verifiable, and harder to falsify, eInvoicing changes lenders’ information sets, facilitating invoice-based financing and credit risk assessment. We exploit a regional eInvoicing mandate and administrative credit data using a difference-in-differences design to provide three main insights. First, credit reallocates toward firms already relying on invoice-based credit (“invoice firms”) and away from non-invoice firms. Second, the cost of (non-)invoice credit falls (rises) for (non-)invoice firms, consistent with a supply-driven mechanism. Third, banks' information production changes: eInvoicing widens (reduces) the dispersion of rates and banks' risk assessments and improves (worsens) their predictive accuracy for (non-)invoice firms. Overall, eInvoicing reshapes credit market outcomes, with uneven effects across borrowers.
