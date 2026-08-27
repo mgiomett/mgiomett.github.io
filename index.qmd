@@ -15,11 +15,9 @@ description: "Marco Giometti, Assistant Professor of Finance at Universidad Carl
 
 Ciao! Welcome to my website.
 
-I am an Assistant Professor of Finance in the Business Department at the Universidad Carlos III de Madrid.
+I am an Assistant Professor of Finance at [Universidad Carlos III de Madrid](https://business.uc3m.es/). I hold a PhD in Finance from [the Wharton School of the University of Pennsylvania](https://www.wharton.upenn.edu/).
 
-I received my PhD in Finance from the Wharton School of the University of Pennsylvania in May 2022.
-
-My research focuses on Banking, Credit Markets, and Financial Contracting.
+My research uses loan-level and administrative data to examine how banks collect and use information, how this shapes credit allocation and financial contracting, and how firms’ financing responds to technological, regulatory, and macroeconomic changes.
 
 You can download my CV [**here**](files/cv/CV_Giometti.pdf){target="_blank" rel="noopener"}.
 
