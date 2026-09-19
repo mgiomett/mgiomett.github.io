@@ -160,6 +160,10 @@ How do energy-price shocks affect credit markets? Using Spanish credit register 
 ## Selected Invited Discussions
 
 ::: {.discussion-list}
+**Geopolitical Risk and Lending: Evidence from U.S. Technology Export Controls and the Market for Syndicated Loans**, by Fabiana Gomez, Doni Prasetyo, Klaus Schaeck, *2026 International Workshop on Financial System Architecture & Stability*
+
+**Endogenous Bank Risk Heterogeneity and the Anatomy of Systemic Fragility**, by Jorge Abad, David Martinez-Miera, Javier Suarez, *33rd Finance Forum of the Spanish Finance Association*
+
 **Platform Credit, Advertising, and Customer Capital** by Matthias Efing, Yi Huang, Ruobing Han, Qi Sun, Daniel Yi Xu, *EUROFIDAI-ESSEC Paris December 2025 Finance Meeting*
 
 **How Do Lenders Manage Collateral Illiquidity?** by Francisco Amaral and Gianmarco Ruzzier, *10th MadBar Workshop on Banking and Corporate Finance*
