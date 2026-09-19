@@ -159,9 +159,9 @@ How do energy-price shocks transmit through credit markets? Using Spanish credit
 ## Selected Invited Discussions
 
 ::: {.discussion-list}
-**Geopolitical Risk and Lending: Evidence from U.S. Technology Export Controls and the Market for Syndicated Loans**, by Fabiana Gomez, Doni Prasetyo, Klaus Schaeck, *2026 International Workshop on Financial System Architecture & Stability*
+**Geopolitical Risk and Lending: Evidence from U.S. Technology Export Controls and the Market for Syndicated Loans** by Fabiana Gomez, Doni Prasetyo, Klaus Schaeck, *2026 International Workshop on Financial System Architecture & Stability*
 
-**Endogenous Bank Risk Heterogeneity and the Anatomy of Systemic Fragility**, by Jorge Abad, David Martinez-Miera, Javier Suarez, *33rd Finance Forum of the Spanish Finance Association*
+**Endogenous Bank Risk Heterogeneity and the Anatomy of Systemic Fragility** by Jorge Abad, David Martinez-Miera, Javier Suarez, *33rd Finance Forum of the Spanish Finance Association*
 
 **Platform Credit, Advertising, and Customer Capital** by Matthias Efing, Yi Huang, Ruobing Han, Qi Sun, Daniel Yi Xu, *EUROFIDAI-ESSEC Paris December 2025 Finance Meeting*
 
